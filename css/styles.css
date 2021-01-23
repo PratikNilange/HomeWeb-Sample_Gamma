@@ -1,0 +1,59 @@
+/*Fonts Start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*Fonts End*/
+
+/*Regular stuff Start*/
+
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #00BFFF;
+}
+::selection {
+  color: black;
+  background: #00BFFF;
+}	
+
+body{
+	background: #d6d6d6;
+	overflow-y: hidden;
+}
+
+.outlyr{
+	background: white;
+	display: flex;
+	flex-direction: row;
+	height: 600px;
+	width: 20000px; /*Change this whenever you modify the number of elements. Check the list of elements in the index page*/
+	box-shadow: 5px 10px 55px #888888;
+	-webkit-box-shadow: 5px 10px 55px #888888;
+    -moz-box-shadow: 5px 10px 55px #888888;
+}
+
+p{
+	font-size: 12px;
+	/* font-family: 'Lato', sans-serif !important; */
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	color: #101010;
+}
+
+/*Regular Stuff End*/
+
+/*Types of containers*/
+.std-container{
+	margin: 10px 50px 10px 50px;
+	width: 350px;
+	font-family: 'Lato' !important;
+	letter-spacing: 0.4px;
+	color: #101010;
+}
+.main-container{
+	margin: 10px 10px 10px 10px;
+	width: 300px;
+	font-family: 'Lato' !important;
+	color: #101010;
+}
+/*Types of Containers end
